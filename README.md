@@ -1,36 +1,93 @@
 <p align="center">
-  <img src="logo.png" alt="BODY SPARK Logo" width="180" style="border-radius: 50%; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
+  <img src="logo.png" alt="Gym Management Suite Logo" width="180" style="border-radius: 50%; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" />
 </p>
 
-<h1 align="center">BODY SPARK</h1>
-<h3 align="center">Enterprise Gym Management & Biometric Attendance System</h3>
-
+<h1 align="center">SmartGym Enterprise</h1>
+<h3 align="center">Custom Gym Management & Automated Smart Access Control Platform</h3>
 <p align="center">
-  <em>An autonomous workstation application engineered for commercial gyms and fitness clubs, featuring real-time ZKTeco biometric fingerprint integration, automated fee enforcement, financial loss/profit analytics, and cloud synchronization.</em>
+  <em>Client Deployment Case Study: <strong>Body Spark Fitness Club</strong></em><br />
+  <em>Architected & Engineered by <strong>Hammad Shaikh</strong></em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D6?logo=windows&logoColor=white" alt="Platform" />
-  <img src="https://img.shields.io/badge/Hardware-ZKTeco%20K50%20Biometric-00C853?logo=fingerprint&logoColor=white" alt="ZKTeco K50" />
-  <img src="https://img.shields.io/badge/Frontend-React%2019%20%7C%20Vite-61DAFB?logo=react&logoColor=black" alt="React 19" />
-  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20SQLite%20WAL-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Security-Google%20Authenticator%202FA-EA4335?logo=google&logoColor=white" alt="2FA Security" />
-  <img src="https://img.shields.io/badge/Cloud-Google%20Drive%20Sync-4285F4?logo=googledrive&logoColor=white" alt="Google Drive" />
+  <img src="https://img.shields.io/badge/Hardware-Biometric%20%7C%20RFID%20%7C%20Face%20ID%20%7C%20Turnstiles-00C853?logo=fingerprint&logoColor=white" alt="Hardware" />
+  <img src="https://img.shields.io/badge/Platform-Windows%20Desktop%20%7C%20LAN%20%7C%20Cloud-0078D6?logo=windows&logoColor=white" alt="Platform" />
+  <img src="https://img.shields.io/badge/Stack-React%2019%20%7C%20Node.js%20%7C%20SQLite-339933?logo=react&logoColor=white" alt="Stack" />
+  <img src="https://img.shields.io/badge/Security-Google%20Authenticator%202FA-EA4335?logo=google&logoColor=white" alt="Security" />
+  <img src="https://img.shields.io/badge/Cloud-Google%20Drive%20Sync-4285F4?logo=googledrive&logoColor=white" alt="Cloud" />
+  <img src="https://img.shields.io/badge/Customization-Fully%20Modular%20%26%20Extensible-orange" alt="Modular" />
 </p>
 
 ---
 
 ## 📌 Project Overview
 
-**BODY SPARK** is a high-performance gym management desktop software developed to solve daily front-desk challenges in gym operations. Unlike standard web-based portals that suffer from internet outages and slow responsiveness, BODY SPARK runs entirely offline on local hardware with direct TCP/IP socket connections to biometric hardware, while automatically pushing scheduled weekly snapshots to Google Drive for cloud redundancy.
+**SmartGym Enterprise** is a comprehensive, modular management and automated access control suite designed for commercial gyms, fitness centers, martial arts dojos, and health clubs. 
 
-### 🌟 Key Capabilities at a Glance
-- ⚡ **Zero-Latency Biometric Verification**: Direct TCP/IP socket integration with **ZKTeco K50** machines.
-- 🔔 **Auditory Verification Feedback**: Instant pleasant two-tone chimes for active members vs high-decibel warning buzzers for overdue/unpaid attempts.
-- 👥 **Comprehensive Member Lifecycle**: Dynamic shift categorization (Morning, Evening, Night), membership duration plans, and real-time status transitions.
-- 📊 **Financial Accounting & P&L Engine**: Monthly revenue calculation, categorized gym operational expenses (Rent, Electricity, Salaries, Equipment, Maintenance), and net profitability breakdown.
-- ☁️ **Weekly Google Drive Synchronization**: Autonomous weekly background backup push and 1-click database restore for effortless new laptop provisioning.
-- 🛡️ **Enterprise Security (2FA)**: Single-executable workstation installer protected by **Google Authenticator (RFC 6238 TOTP)**.
+Originally engineered and deployed as a dedicated workstation for **Body Spark Gym**, this platform is built with an extensible, modular architecture that allows it to be customized and expanded with any feature, hardware integration, or workflow a gym requires.
+
+Unlike generic subscription-based gym software that stops working when the internet cuts out, this platform operates on an **autonomous hybrid engine**: running lightning-fast locally with zero downtime while automatically synchronizing backups to Google Drive and multi-computer LAN workstations.
+
+> 💡 **Need a custom system for your gym?**  
+> This platform can be customized, branded with your gym's logo and color palette, and deployed with any hardware (fingerprint, Face ID, turnstiles, RFID) and software modules your business needs.  
+> 👉 [Contact Hammad Shaikh for Custom Development](#-hire--custom-development-inquiries)
+
+---
+
+## 🚀 Core Features & Real-World Implementation
+
+### 1. 🖲️ Smart Biometric & Hardware Access Control
+- **Universal Hardware Bridge**: Socket integration with biometric devices (ZKTeco K50, Anviz, Suprema, etc.), RFID card readers, and turnstile gate relays over local network or direct cable.
+- **Sub-Second Access Decision**: Checks member status, shift timing, and fee validity instantly on scan.
+- **Auditory Verification Alerts**:
+  - 🔔 *Success Chime*: Pleasant two-tone chime welcoming active, paid members.
+  - 🚨 *Access Denied Buzzer*: High-visibility alert sound stopping expired/unpaid entry attempts.
+- **Fail-Safe Offline Mode**: Continues scanning and logging check-ins even if the internet is disconnected.
+
+### 2. 👥 Full Member Lifecycle & Shift Management
+- **Shift Scheduling**: Dedicated separation for Morning, Evening, and Night workout slots.
+- **Membership Tiers**: Flexible packages (Monthly, 3 Months, 6 Months, Yearly, Drop-in Day Passes).
+- **Automated Expiration Engine**: Daily automated overdue status calculations and automated fee adjustments.
+- **Biometric Slot Enrollment**: In-app fingerprint registration directly linked to member profiles.
+
+### 3. 📊 Financial Accounting, Expenses & P&L Analytics
+- **Live Revenue Tracking**: Automatic digital receipt logging on every membership renewal or registration.
+- **Operating Expense Manager**: Categorized cost logging for:
+  - 🏢 Facility Rent
+  - ⚡ Electricity & Utility Bills
+  - 👥 Staff & Trainer Salaries
+  - 🏋️ Equipment Maintenance & Upgrades
+  - 💊 Supplements & Refreshment Stock
+  - 📢 Marketing & Daily Operations
+- **Interactive Monthly Filter**: 1-click monthly breakdown displaying:
+  $$\text{Net Profit} = \text{Gross Fee Revenue} - \text{Total Operational Expenses}$$
+
+### 4. ☁️ Autonomous Google Drive Cloud Sync & 1-Click Laptop Migration
+- **Weekly Auto-Sync**: Automatically pushes encrypted, transaction-safe database snapshots to your connected Google Drive once a week.
+- **Zero-Config Webhook**: Simple 1-minute setup via Google Apps Script — no complicated APIs or expiring tokens.
+- **1-Click Restore**: Installing on a new laptop? Download your latest `.bsbak` backup file from Google Drive, select it in the app, and import all member profiles, fingerprint records, financial receipts, and attendance history in seconds.
+- **Pre-Restore Rollback Guard**: Preserves a local safety copy before any database import to ensure zero data loss.
+
+### 5. 🛡️ Enterprise Security & Two-Factor Authentication (2FA)
+- **Google Authenticator (RFC 6238 TOTP) Protected Setup**: Workstation installer is locked by dynamic 6-digit smartphone authentication codes.
+- **Terminal Admin Locks**: Prevent unauthorized staff from altering fees, deleting member accounts, or modifying financial books.
+- **Sanitized Distribution**: New installations initialize clean slate databases without lingering test records.
+
+---
+
+## 🧩 Modular Extensions & Available Add-Ons
+
+The platform is designed with a plugin-style architecture. Any of the following modules can be activated or custom-built for gym clients:
+
+| Module | Features & Capabilities |
+| :--- | :--- |
+| **📱 WhatsApp & SMS Gateway** | Automated fee reminders, expiry alerts, and digital payment receipts sent directly to members' WhatsApp or mobile phones. |
+| **🚪 Turnstile & Magnetic Door Locks** | Electronic relay trigger to unlock gym entry turnstiles, speed gates, or magnetic glass doors upon valid scan. |
+| **📸 Face Recognition & Thermal** | Contactless AI facial recognition terminals for high-throughput gym entrances. |
+| **🛒 Gym Supplement POS** | Point-of-Sale barcode scanner module for protein supplements, energy drinks, gym apparel, and snacks. |
+| **📅 Personal Trainer & Class Booking** | Trainer commission tracking, personal training session cards, and group class capacity reservations. |
+| **🌐 Multi-Branch Chain Network** | Cloud centralized database allowing members to scan in across multiple gym branches with centralized owner reporting. |
+| **📱 Member Mobile App (iOS / Android)** | Branded mobile app for gym members to view workout logs, track fee due dates, and scan dynamic QR codes for entry. |
 
 ---
 
@@ -38,92 +95,72 @@
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                          BODY SPARK WORKSTATION                        │
+│                        SMARTGYM WORKSTATION OS                         │
 ├───────────────────────────┬────────────────────────────────────────────┤
-│   React 19 Desktop Client │   High-Performance Local Backend           │
-│   • Dark & Light Modes    │   • Node.js Event Loop Architecture        │
-│   • Instant Search & Filter│  • SQLite Engine with WAL Journaling      │
-│   • Monthly Accounts P&L  │   • Biometric TCP Session Supervisor       │
-│   • Google Drive Portal   │   • Native Desktop Window Shell (C# .NET)  │
+│   React 19 Desktop Client │   High-Throughput Local Server Core        │
+│   • Frameless Native Shell│   • Node.js Event Loop Architecture        │
+│   • Dark & Light Modes    │   • SQLite Engine in WAL Journal Mode      │
+│   • Instant Search Engine │   • Hardware TCP/IP Session Supervisor     │
+│   • P&L Financial Engine  │   • Multi-PC LAN Network Bridge            │
 └─────────────┬─────────────┴─────────────────────┬──────────────────────┘
               │                                   │
               ▼                                   ▼
 ┌───────────────────────────┐       ┌────────────────────────────────────┐
-│   ZKTeco K50 Biometric    │       │    Google Drive Cloud Storage      │
-│   • Live Fingerprint Scans│       │    • Automated Weekly Snapshots    │
-│   • Direct Ethernet/LAN   │       │    • 1-Click .bsbak File Restore   │
-│   • Voice & Sound Alarms  │       │    • Safe Multi-Device Migration   │
+│   Hardware & Access Layer │       │    Cloud Redundancy & Messaging    │
+│   • ZKTeco / Biometrics   │       │    • Weekly Google Drive Snapshots │
+│   • Turnstiles & Relays   │       │    • WhatsApp / SMS Gateway Ready  │
+│   • RFID / Face ID / QR   │       │    • 1-Click Multi-PC Provisioning │
 └───────────────────────────┘       └────────────────────────────────────┘
 ```
 
 ---
 
-## 🚀 Core Features
-
-### 1. 🖲️ Biometric Hardware Integration (ZKTeco K50)
-- **High-Speed Socket Engine**: Direct Ethernet connection supporting both direct PC-to-machine cables (`192.168.1.201`) and local Wi-Fi router LAN (`192.168.0.151`).
-- **Real-Time Attendance Ingestion**: Captures timestamped check-in logs in sub-second time.
-- **Custom Sound Effects**:
-  - *Paid Chime*: Pleasant synthesized C5-G5 chime confirming authorized entry.
-  - *Unpaid Alert*: Immediate high-frequency security buzzer alerting front-desk staff of expired accounts.
-
-### 2. 👥 Gym Operations & Member Tracking
-- Member records tracking gender, training shifts (Morning, Evening, Night), and membership tiers (Monthly, 3 Months, 6 Months, Yearly).
-- Automated expiration engine that continuously recalculates due dates and updates membership flags.
-- Biometric registration status indicator confirming enrolled fingerprints on the hardware.
-
-### 3. 💳 Accounts, Expenses & Financial Engine
-- **Gross Revenue Tracking**: Automatic receipt creation upon member payments.
-- **Gym Expense Management**: Categorized overhead tracking including:
-  - 🏢 Facility Rent
-  - ⚡ Electricity & Utilities
-  - 🏋️ Equipment & Maintenance
-  - 👥 Staff & Trainer Salaries
-  - 💊 Supplements & Inventory
-  - 📢 Marketing & Operations
-- **Monthly Filter Breakdown**: Select any calendar month to view instant totals:
-  $$\text{Net Profit} = \text{Gross Revenue} - \text{Total Expenses}$$
-
-### 4. ☁️ Google Drive Cloud Backup & 1-Click Laptop Migration
-- **Weekly Autonomous Sync**: Body Spark takes a transaction-consistent SQLite snapshot and pushes it to a secure `Body Spark Backups` folder in Google Drive.
-- **1-Minute Google Apps Script Webhook**: Requires zero third-party software or expiring API tokens.
-- **New Laptop Provisioning**: Install on a new workstation, select the downloaded `.bsbak` backup file, and restore all members, fingerprints, financial receipts, and attendance logs in 1 click.
-- **Automatic Rollback Guard**: Preserves a local safety copy before applying any database restore.
-
-### 5. 🔒 Enterprise Security & Two-Factor Authentication
-- **Installer Guarded by Google Authenticator**: The standalone setup file requires a live 6-digit TOTP code from the gym owner's smartphone app before unpacking.
-- **Admin Session Locks**: Critical operations (editing member records, waiving fees, deleting entries) require administrative authorization.
-- **Clean Slate Distribution**: Packaged installer automatically initializes a sanitized environment on new machines without residual test logs.
-
----
-
 ## 🛠️ Technology Stack
 
-| Layer | Technology | Description |
+| Layer | Technology | Details |
 | :--- | :--- | :--- |
-| **Frontend UI** | React 19, Vite | Responsive single-page application with custom CSS design tokens |
-| **Backend Core** | Node.js, Express | Event-driven backend with Server-Sent Events (SSE) live updates |
-| **Database** | SQLite 3 (WAL Mode) | High-concurrency local database with checkpointing and ACID safety |
-| **Biometric Protocol** | Node ZK-Lib (TCP/IP) | Low-level binary socket protocol for ZKTeco devices |
-| **Desktop Shell** | C# .NET Windows Forms | Dedicated borderless window frame with System Tray minimization |
-| **Cloud Sync** | Google Apps Script Webhook | Serverless Google Drive bridge with Base64 octet streams |
-| **Security** | RFC 6238 TOTP (SHA-1) | Military-grade dynamic 2FA authentication algorithm |
+| **Client UI** | React 19, Vite, Vanilla CSS | Ultra-responsive, smooth dark/light design system with zero browser chrome |
+| **Backend Core** | Node.js, Express | Event-driven micro-server with Server-Sent Events (SSE) live telemetry |
+| **Database** | SQLite 3 (WAL Mode) | Transactional ACID database with zero external server dependencies |
+| **Hardware Driver** | Binary TCP/IP Socket Protocol | Low-level direct socket protocol for biometric and RFID devices |
+| **Desktop Shell** | C# .NET Windows Forms | Dedicated borderless desktop window with Windows System Tray minimization |
+| **Cloud Bridge** | Google Apps Script Webhook | Serverless Google Drive storage bridge using Base64 octet streams |
+| **Security** | RFC 6238 TOTP (SHA-1) | Dynamic 2FA authentication algorithm for software installer protection |
 
 ---
 
-## 👤 Author & Developer
+## 🏆 Client Case Study: Body Spark Gym
 
-**Hammad Shaikh**
+> *"Body Spark Gym needed a robust workstation software to replace manual paper registers and eliminate unauthorized member entry during busy morning and evening rush hours. The solution needed to operate reliably without relying on an active internet connection, enforce membership due dates with clear auditory alerts, track daily overhead expenses, and provide automated off-site backups."*
+
+**Delivered Solution**:
+- Custom-branded standalone desktop application with Body Spark's official emblem and theme.
+- Direct-cable ZKTeco K50 biometric check-in with high-volume alarm for unpaid members.
+- Instant Monthly Financial P&L filter for business owners.
+- Autonomous weekly backup to Google Drive.
+
+---
+
+## 💼 Hire / Custom Development Inquiries
+
+Are you looking for a **custom gym management system**, **biometric hardware integration**, **turnstile access control**, or **tailored fitness software** for your gym or club?
+
+I engineer end-to-end commercial desktop and cloud solutions tailored to your exact business rules:
+- **Custom Branding & UI Design** matching your gym's brand identity.
+- **Hardware Integration** (ZKTeco, RFID, Turnstiles, Face ID, Fingerprint).
+- **Custom Features** (WhatsApp notifications, supplement POS, multi-branch syncing).
+- **Turnkey Setup & Remote Installation**.
+
+### Contact Information:
+- **Developer**: Hammad Shaikh
 - **GitHub**: [@Hammadshaikh1994](https://github.com/Hammadshaikh1994)
 - **Email**: [hammadshk1994@gmail.com](mailto:hammadshk1994@gmail.com)
-- **Role**: Full-Stack Software Engineer & Desktop Systems Architect
-
-> *Available for custom enterprise software development, hardware/IoT biometric integrations, and tailored management solutions.*
+- **Profile**: [github.com/Hammadshaikh1994](https://github.com/Hammadshaikh1994)
 
 ---
 
-## 📄 License & Proprietary Notice
+## 📄 Proprietary Notice & Copyright
 
 Copyright © 2026 **Hammad Shaikh**. All rights reserved.
 
-*Notice: This repository serves as a public architectural showcase and technical portfolio. Core proprietary backend algorithms, biometric firmware communication drivers, and commercial database binaries are maintained in private development repositories.*
+*Notice: This repository serves as a public architectural showcase and technical portfolio. Core proprietary backend algorithms, biometric firmware communication drivers, and commercial database binaries are maintained in private development repositories. Commercial licenses and customized builds are available upon request.*
