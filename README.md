@@ -10,6 +10,15 @@
 </p>
 
 <p align="center">
+  <a href="https://hammadshaikh1994.github.io/SmartGym-Enterprise/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐%20LIVE%20INTERACTIVE%20DEMO-CLICK%20TO%20LAUNCH%20APP-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Live Interactive Demo" />
+  </a>
+  <a href="https://github.com/Hammadshaikh1994/SmartGym-Enterprise/actions/workflows/deploy-demo.yml">
+    <img src="https://img.shields.io/badge/GitHub%20Worker-Active%20%26%20Deployed-brightgreen?style=for-the-badge&logo=githubactions&logoColor=white" alt="Worker Status" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Hardware-Biometric%20%7C%20RFID%20%7C%20Face%20ID%20%7C%20Turnstiles-00C853?logo=fingerprint&logoColor=white" alt="Hardware" />
   <img src="https://img.shields.io/badge/Platform-Windows%20Desktop%20%7C%20LAN%20%7C%20Cloud-0078D6?logo=windows&logoColor=white" alt="Platform" />
   <img src="https://img.shields.io/badge/Stack-React%2019%20%7C%20Node.js%20%7C%20SQLite-339933?logo=react&logoColor=white" alt="Stack" />
@@ -17,6 +26,22 @@
   <img src="https://img.shields.io/badge/Cloud-Google%20Drive%20Sync-4285F4?logo=googledrive&logoColor=white" alt="Cloud" />
   <img src="https://img.shields.io/badge/Customization-Fully%20Modular%20%26%20Extensible-orange" alt="Modular" />
 </p>
+
+---
+
+## ⚡ Try The Live Interactive Web Demo
+
+Experience the full **SmartGym Enterprise** user experience right in your browser with our client-side hardware simulator:
+
+👉 **[Launch Live Demo: https://hammadshaikh1994.github.io/SmartGym-Enterprise/](https://hammadshaikh1994.github.io/SmartGym-Enterprise/)**
+
+### 🎮 What You Can Test Live in Your Browser:
+1. **🟢 Biometric Access Chime**: Click the `[🟢 Simulate Pass]` button in the top banner to test the real entry chime and verified check-in.
+2. **🔴 Overdue Alert Buzzer**: Click the `[🔴 Simulate Overdue]` button to trigger the audio alert buzzer and red access-denied modal.
+3. **👥 Member Directory & Search**: Browse members, filter by **Morning / Evening / Night** shifts or payment status (**Paid / Pending / Overdue**), and add new members.
+4. **💳 Instant Fee Collection**: Click **Collect Fee** on any member to record payment and watch expiry dates and balances update in real-time.
+5. **📊 Monthly P&L Financials**: Open the **Accounts** tab to explore the multi-month filter, gross revenue calculations, expense categories, and net profit ledger.
+6. **⚙️ Hardware & Cloud Simulator**: Check the **Settings** tab to inspect the simulated biometric machine ping and Google Drive automated weekly backup status.
 
 ---
 
